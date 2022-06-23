@@ -27,7 +27,7 @@ const SearchFilters = () => {
 
   return (
     <Flex bg="gray.200" p="4" justifyContent="center" flexWrap="wrap">
-      {filterData.map((filter) => (
+      {filters?.map((filter) => (
         <Box key={filter.queryName}>
           <Select
             placeholder={filter.placeholder} 
